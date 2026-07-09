@@ -2,7 +2,7 @@
 
 # Commanding at the Speed of Sound: Audio-Centric Referring Expression Segmentation for Aerial Scenes
 
-[Fan Liu*](https://multimodality.group/author/%E5%88%98%E5%87%A1/) 
+[Fan Liu](https://multimodality.group/author/%E5%88%98%E5%87%A1/) 
 <img src="assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
 [Yijun Wang](https://multimodality.group/author/%E7%8E%8B%E7%BF%8C%E9%AA%8F/) ✉
 <img src="assets/hhu_logo.png" alt="Hohai University" width="15">, &nbsp; &nbsp;
@@ -19,7 +19,7 @@
 [Xiaohan Yu]()
 <img src="assets/mq_logo.png" alt="Macquarie University" width="15">
 
-\* *Equal Contribution*    ✉ *Corresponding Author*
+\* ✉ *Corresponding Author*
 
 Benchmark : [Aerial-AudioRES](https://github.com/your-username/ARES-Net)
 
