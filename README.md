@@ -19,7 +19,7 @@
 [Xiaohan Yu]()
 <img src="assets/mq_logo.png" alt="Macquarie University" width="15">
 
-\* ✉ *Corresponding Author*
+\* ✉ Corresponding Author*
 
 Benchmark : [Aerial-AudioRES](https://github.com/your-username/ARES-Net)
 
