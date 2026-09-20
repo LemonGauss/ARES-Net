@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/hhu_logo.png" alt="Hohai University" height="64" />&nbsp;&nbsp;&nbsp;
-<img src="assets/mq_logo.png" alt="Macao University of Science and Technology" height="64" />
 
 # ARES-Net
 
@@ -19,9 +17,7 @@
   <img src="https://img.shields.io/badge/CUDA-11.8-76B900?logo=nvidia&logoColor=white" alt="CUDA 11.8" />
 </p>
 
-**Fan Liu · Yijun Wang · Chuanyi Zhang · Liang Yao · Yuexuan An · Xiang Gu · Pai Peng**
-
-</div>
+<p><a href="https://openreview.net/profile?id=~Fan_Liu7">Fan Liu</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Yijun_Wang10">Yijun Wang</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Chuanyi_Zhang1">Chuanyi Zhang</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Liang_Yao4">Liang Yao</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Yuexuan_An1">Yuexuan An</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Xiang_Gu5">Xiang Gu</a><img src="assets/hhu_logo.png" alt="Hohai University" width="16"> · <a href="https://openreview.net/profile?id=~Pai_Peng2">Pai Peng</a><img src="assets/浙江大学-logo.png" alt="Zhejiang University" width="16"></p>
 
 ## Overview
 
