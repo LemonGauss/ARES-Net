@@ -1,4 +1,5 @@
 requests
+wandb
 filelock
 ftfy
 regex

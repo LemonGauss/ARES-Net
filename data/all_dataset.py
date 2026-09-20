@@ -6,7 +6,7 @@ from PIL import Image
 import torch.utils.data as data
 import torchaudio
 from tqdm import tqdm  
-from transformers import  Wav2Vec2FeatureExtractor
+from transformers import BertTokenizer, Wav2Vec2FeatureExtractor
 import pickle
 import numpy as np
 import torch
@@ -47,7 +47,7 @@ class All_Dataset(data.Dataset):
         self.sample_rate = 16000
         self.audio_max_len = args.audio_max_len  
         self.feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained(
-            "./facebook/hubert-base-ls960",
+            args.hubert_path,
             sampling_rate=16000,
             return_attention_mask=True,
             padding_value=0.0,

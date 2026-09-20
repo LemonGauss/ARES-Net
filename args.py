@@ -26,7 +26,7 @@ def get_parser():
     parser.add_argument('--output-dir', default='./checkpoints/', help='path where to save checkpoint weights')
     parser.add_argument('--pin_mem', action='store_true',
                         help='If true, pin memory when using the data loader.')
-    parser.add_argument('--pretrained_swin_weights', default='swin_base_patch4_window12_384_22k.pth',
+    parser.add_argument('--pretrained_swin_weights', default='./pretrained_weights/swin_base_patch4_window12_384_22k.pth',
                         help='path to pre-trained Swin backbone weights')
     parser.add_argument('--print-freq', default=10, type=int, help='print frequency')
     parser.add_argument('--refer_data_root', default='', help='REFER dataset root directory')
@@ -62,6 +62,8 @@ def get_parser():
     #new audio args
     parser.add_argument('--audio_max_len', type=float, default=10,
                    help='Max audio length in seconds')
+    parser.add_argument('--hubert_path', default='./pretrained_weights/hubert-base-ls960',
+                   help='local path to the HuBERT-base checkpoint')
     # parser.add_argument('--freeze_audio', action='store_false',
     #                help='Freeze audio encoder weights')
     parser.add_argument('--audioFolder', default="",

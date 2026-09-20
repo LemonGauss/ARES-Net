@@ -12,7 +12,7 @@ import numpy as np
 import gc
 import operator
 from functools import reduce
-from bert.modeling_bert import BertModel
+from transformers import BertModel
 from lib import segmentation
 from loss.loss import Loss
 
@@ -367,7 +367,7 @@ def main(args):
 
     
     
-    accumulation_steps = 2
+    accumulation_steps = 4
 
     
     
@@ -413,7 +413,7 @@ def main(args):
     # for epoch in range(0, args.epochs):
         data_loader.sampler.set_epoch(epoch)
         train_one_epoch(model, criterion, optimizer, data_loader, lr_scheduler, epoch, args.print_freq,
-                        iterations, bert_model,accumulation_steps=4)
+                        iterations, bert_model, accumulation_steps=accumulation_steps)
         iou, overallIoU = evaluate(model, data_loader_test, bert_model, epoch)
         print('Average object IoU {}'.format(iou))
         print('Overall IoU {}'.format(overallIoU))

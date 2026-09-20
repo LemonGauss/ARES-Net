@@ -12,7 +12,7 @@ from transformers import HubertModel
 class AudioProcessor(nn.Module):
     def __init__(self, args):
         super().__init__()
-        self.encoder = HubertModel.from_pretrained("./facebook/hubert-base-ls960", local_files_only=True)
+        self.encoder = HubertModel.from_pretrained(args.hubert_path, local_files_only=True)
         self.sample_rate = 16000
         
         

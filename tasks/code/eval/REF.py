@@ -4,7 +4,7 @@ import utils
 import numpy as np
 import transforms as T
 import random
-from bert.modeling_bert import BertModel
+from transformers import BertModel
 from lib import segmentation
 
 

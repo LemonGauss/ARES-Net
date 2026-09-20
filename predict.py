@@ -83,7 +83,7 @@ def predict_single_pair(args, model, output_dir, image_path, audio_path, gt_mask
     
     print("Extracting audio features...")
     feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained(
-        "./facebook/hubert-base-ls960",
+        args.hubert_path,
         sampling_rate=16000,
         return_attention_mask=True,
         padding_value=0.0,
