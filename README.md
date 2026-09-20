@@ -2,7 +2,7 @@
 
 # Commanding at the Speed of Sound: Audio-Centric Referring Expression Segmentation for Aerial Scenes
 
-### [*Fan Liu*](https://openreview.net/profile?id=~Fan_Liu7)*, [*Yijun Wang*](https://openreview.net/profile?id=~Yijun_Wang10)*, [*Chuanyi Zhang*](https://openreview.net/profile?id=~Chuanyi_Zhang1)*, [*Liang Yao*](https://openreview.net/profile?id=~Liang_Yao4)*, [*Yuexuan An*](https://openreview.net/profile?id=~Yuexuan_An1)*, [*Xiang Gu*](https://openreview.net/profile?id=~Xiang_Gu5)*, [*Pai Peng*](https://openreview.net/profile?id=~Pai_Peng2)*
+### [*Fan Liu*](https://openreview.net/profile?id=~Fan_Liu7)*, [*Yijun Wang*](https://openreview.net/profile?id=~Yijun_Wang10)*, [*Chuanyi Zhang*](https://openreview.net/profile?id=~Chuanyi_Zhang1)*, [*Liang Yao*](https://openreview.net/profile?id=~Liang_Yao4)*, [*Yuexuan An*](https://openreview.net/profile?id=~Yuexuan_An1)*, [*Xiang Gu*](https://openreview.net/profile?id=~Xiang_Gu5)*, [*Pai Peng*](https://openreview.net/profile?id=~Pai_Peng2)
 
 Benchmark: [Aerial-AudioRES](https://www.modelscope.cn/datasets/LemonGauss/Aerial-AudioRES)
 
